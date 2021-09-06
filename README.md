@@ -5,7 +5,6 @@
 所以在我們的畢業專案中沒有用到任何跟Java Swing有關的程式碼，
 我們這樣做的起由是因為我們現在學到的swing技巧離我們想做出來的成品有很大的距離。
 
-![image](螢幕擷取畫面 2021-09-06 162449.png)
 ![image](signIn_page.png)
 ![image](signUp_page.png)
 ![image](home_page.png)
