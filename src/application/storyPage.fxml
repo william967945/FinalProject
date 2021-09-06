@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1600.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.storyPageController">
+   <content>
+      <Pane prefHeight="1600.0" prefWidth="850.0" style="-fx-background-color: e2dace e2dace;">
+         <children>
+            <Button fx:id="bt1" layoutX="33.0" layoutY="54.0" mnemonicParsing="false" onAction="#switchToScene1" prefHeight="57.0" prefWidth="162.0" style="-fx-background-color: transparent;" text="δώρο" textFill="#12120f">
+               <font>
+                  <Font name="Futura Medium" size="35.0" />
+               </font>
+            </Button>
+            <TextField fx:id="TextField" layoutX="186.0" layoutY="73.0" prefHeight="33.0" prefWidth="401.0" />
+            <Button fx:id="bt2" layoutX="581.0" layoutY="72.0" mnemonicParsing="false" onAction="#goTosearchPage" prefHeight="36.0" prefWidth="141.0" style="-fx-background-radius: 0; -fx-background-color: #F9C9CA;" text="Search For Name" textFill="#3b3233">
+               <font>
+                  <Font name="Avenir Next Condensed Bold" size="17.0" />
+               </font>
+            </Button>
+            <Button fx:id="bt3" layoutX="81.0" layoutY="161.0" mnemonicParsing="false" onAction="#bt3" prefHeight="361.0" prefWidth="263.0" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="370.0" fitWidth="306.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@010.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="bt4" layoutX="496.0" layoutY="562.0" mnemonicParsing="false" onAction="#bt4" prefHeight="263.0" prefWidth="305.0" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="220.0" fitWidth="304.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@uonuon.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="bt5" layoutX="73.0" layoutY="825.0" mnemonicParsing="false" onAction="#bt5" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="419.0" fitWidth="485.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@p15.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="bt6" layoutX="491.0" layoutY="1301.0" mnemonicParsing="false" onAction="#bt6" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="220.0" fitWidth="304.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@p12.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label layoutX="403.0" layoutY="149.0" prefHeight="92.0" prefWidth="422.0" text="送長輩的禮物，也要貫徹浪漫的思想💝 ">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="735.0" layoutY="246.0" text="(⁎⁍̴̛ᴗ⁍̴̛⁎)">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="403.0" layoutY="246.0" text="身為浪漫Duck，送禮更是一門大學問">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="405.0" layoutY="303.0" text="不論是送父母的節日大禮，或者是送">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="404.0" layoutY="357.0" text="給老師、上司的感恩謝禮，浪漫指南裡一應俱全">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="403.0" layoutY="428.0" text="加line叫過去，浪漫世大運🔥🔥">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="101.0" layoutY="592.0" text="：汪嗚凹～～～汪汪汪 汪汪嗷">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="108.0" layoutY="632.0" text="汪～～汪嗚凹～汪汪汪～～汪嗚凹～汪汪">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="101.0" layoutY="681.0" text="（要送什麼給上次在公園見面的小白狗">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="108.0" layoutY="727.0" text="她才會答應跟我約會呢">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="308.0" layoutY="728.0" text="o(≧v≦)o）o(≧v≦)o）">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="403.0" layoutY="864.0" text="『 送你三月的風  六月的雨  九月的風景">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="425.0" layoutY="1081.0" text="讓我餘生都有關於你 』">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="425.0" layoutY="934.0" text="大雪漫天飄零  做你的嫁衣  ">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="425.0" layoutY="1013.0" text="如果歲月無情  你我老去  所有漸忘記">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="91.0" layoutY="1309.0" text="「我愛妳」有無數種表達方式">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="93.0" layoutY="1355.0" text="一聲早安  一塊蛋糕  一朵鮮花  一個深情的吻">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="99.0" layoutY="1407.0" text="但沒有什麼是一支口紅解決不了的問題">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="105.0" layoutY="1463.0" text="如果不行，就兩支。">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="661.0" layoutY="1152.0" text="四季予你">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <TextField fx:id="userName" alignment="BOTTOM_LEFT" layoutX="142.0" layoutY="12.0" style="-fx-background-color: transparent;">
+               <font>
+                  <Font name="Futura Medium" size="25.0" />
+               </font></TextField>
+         </children></Pane>
+   </content>
+</ScrollPane>

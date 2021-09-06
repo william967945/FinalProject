@@ -1,0 +1,31 @@
+.under3img{
+	-fx-background-image:url("f1.jpg");
+	-fx-background-size:cover ;
+}
+.giftimg{
+	-fx-background-image:url("f4.jpg");
+	-fx-background-size:cover ;
+}
+.gift1img{
+	-fx-background-image:url("f3.jpg");
+	-fx-background-size:cover ;
+}
+.under2img{
+	-fx-background-image:url("bg10.jpg");
+	-fx-background-size:cover ;
+}
+.uder3img
+{
+	-fx-background-image:url("p1.jpg");
+	-fx-background-size:cover ;
+}
+.bg11img
+{
+	-fx-background-image:url("p11.jpg");
+	-fx-background-size:cover ;
+}
+.b2img
+{
+	-fx-background-image:url("p10.jpg");
+	-fx-background-size:cover ;
+}
